@@ -1,17 +1,14 @@
-//
-//  MyTODOApp.swift
-//  MyTODO
-//
-//  Created by Amjad Oudeh on 16.05.23.
-//
-
+import FirebaseCore
 import SwiftUI
 
 @main
 struct MyTODOApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
