@@ -9,6 +9,7 @@ struct MyTODOApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .environmentObject(Model())
         }
     }
 }

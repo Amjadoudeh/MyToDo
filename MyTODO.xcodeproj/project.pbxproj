@@ -30,6 +30,7 @@
 		D04185762A13787500158952 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185752A13787500158952 /* ToDoListItemView.swift */; };
 		D04185782A1378C300158952 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */; };
 		D041857A2A1378DA00158952 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */; };
+		D041857C2A137CAC00158952 /* SignUpInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857B2A137CAC00158952 /* SignUpInModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D04185752A13787500158952 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
+		D041857B2A137CAC00158952 /* SignUpInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 		D041856B2A13728000158952 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D041857B2A137CAC00158952 /* SignUpInModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				D041856A2A13724700158952 /* NewItemViewViewModel.swift in Sources */,
 				D04185782A1378C300158952 /* ToDoListItemViewViewModel.swift in Sources */,
 				D04185592A1370D900158952 /* SignInView.swift in Sources */,
+				D041857C2A137CAC00158952 /* SignUpInModel.swift in Sources */,
 				D041852F2A136F9F00158952 /* MainView.swift in Sources */,
 				D041852D2A136F9F00158952 /* MyTODOApp.swift in Sources */,
 			);
