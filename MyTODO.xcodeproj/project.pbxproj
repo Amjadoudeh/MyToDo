@@ -14,6 +14,11 @@
 		D041853E2A136FA000158952 /* MyTODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041853D2A136FA000158952 /* MyTODOTests.swift */; };
 		D04185482A136FA000158952 /* MyTODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185472A136FA000158952 /* MyTODOUITests.swift */; };
 		D041854A2A136FA000158952 /* MyTODOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185492A136FA000158952 /* MyTODOUITestsLaunchTests.swift */; };
+		D04185592A1370D900158952 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185582A1370D900158952 /* SignInView.swift */; };
+		D041855B2A1370EC00158952 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041855A2A1370EC00158952 /* SignUpView.swift */; };
+		D041855D2A13710C00158952 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041855C2A13710C00158952 /* UserProfileView.swift */; };
+		D041855F2A13713400158952 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041855E2A13713400158952 /* ToDoListView.swift */; };
+		D04185612A13713F00158952 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185602A13713F00158952 /* NewItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D04185432A136FA000158952 /* MyTODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04185472A136FA000158952 /* MyTODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTODOUITests.swift; sourceTree = "<group>"; };
 		D04185492A136FA000158952 /* MyTODOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTODOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D04185582A1370D900158952 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D041855A2A1370EC00158952 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D041855C2A13710C00158952 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D041855E2A13713400158952 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		D04185602A13713F00158952 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 			children = (
 				D04185572A13706700158952 /* Others */,
 				D04185562A13705A00158952 /* Views */,
+				D04185622A13715300158952 /* ViewModels */,
 				D04185302A136FA000158952 /* Assets.xcassets */,
 				D04185322A136FA000158952 /* Preview Content */,
 			);
@@ -131,6 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				D041852E2A136F9F00158952 /* ContentView.swift */,
+				D04185582A1370D900158952 /* SignInView.swift */,
+				D041855A2A1370EC00158952 /* SignUpView.swift */,
+				D041855C2A13710C00158952 /* UserProfileView.swift */,
+				D041855E2A13713400158952 /* ToDoListView.swift */,
+				D04185602A13713F00158952 /* NewItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +157,13 @@
 				D041852C2A136F9F00158952 /* MyTODOApp.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		D04185622A13715300158952 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D041855F2A13713400158952 /* ToDoListView.swift in Sources */,
+				D041855D2A13710C00158952 /* UserProfileView.swift in Sources */,
+				D04185612A13713F00158952 /* NewItemView.swift in Sources */,
+				D041855B2A1370EC00158952 /* SignUpView.swift in Sources */,
+				D04185592A1370D900158952 /* SignInView.swift in Sources */,
 				D041852F2A136F9F00158952 /* ContentView.swift in Sources */,
 				D041852D2A136F9F00158952 /* MyTODOApp.swift in Sources */,
 			);
