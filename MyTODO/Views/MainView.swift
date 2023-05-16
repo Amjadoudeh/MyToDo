@@ -2,7 +2,6 @@ import SwiftUI
 
 struct MainView: View {
     @EnvironmentObject var model: Model
-    
     var body: some View {
         ZStack {
                     Color.clear.background(.regularMaterial)
@@ -11,6 +10,7 @@ struct MainView: View {
                     Group {
                         switch model.selectedModal {
                         case .signIn: SignInView()
+                                .padding(.top, 50)
                                 .transition(AnyTransition.scale.animation(.easeInOut(duration: 1.6)))
                             
                         case .signUp: SignUpView()

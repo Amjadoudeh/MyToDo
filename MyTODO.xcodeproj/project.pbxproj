@@ -32,6 +32,7 @@
 		D041857A2A1378DA00158952 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */; };
 		D041857C2A137CAC00158952 /* SignUpInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857B2A137CAC00158952 /* SignUpInModel.swift */; };
 		D041857E2A13804E00158952 /* SignHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857D2A13804E00158952 /* SignHeaderView.swift */; };
+		D04185802A13874700158952 /* SignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857F2A13874700158952 /* SignButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		D041857B2A137CAC00158952 /* SignUpInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInModel.swift; sourceTree = "<group>"; };
 		D041857D2A13804E00158952 /* SignHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHeaderView.swift; sourceTree = "<group>"; };
+		D041857F2A13874700158952 /* SignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				D04185602A13713F00158952 /* NewItemView.swift */,
 				D04185752A13787500158952 /* ToDoListItemView.swift */,
 				D041857D2A13804E00158952 /* SignHeaderView.swift */,
+				D041857F2A13874700158952 /* SignButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				D041857C2A137CAC00158952 /* SignUpInModel.swift in Sources */,
 				D041852F2A136F9F00158952 /* MainView.swift in Sources */,
 				D041852D2A136F9F00158952 /* MyTODOApp.swift in Sources */,
+				D04185802A13874700158952 /* SignButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

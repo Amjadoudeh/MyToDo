@@ -20,11 +20,12 @@ struct SignUpView: View {
                 SecureField("Password",text: $viewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 
-    //            SignUp_InButton(title: "Sign Up", buttonBackgroundColor: .black, buttonTextColor: .white) { viewModel.signUp() }
+                SignButton(title: "Sign Up", buttonBackground: .black, textColor: .white) { viewModel.signUp() }
+                    .cornerRadius(5)
             }
+           
+            Spacer()
         }
-        Spacer()
-        
     }
 }
 
