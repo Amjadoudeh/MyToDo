@@ -12,6 +12,7 @@ struct SignHeaderView: View {
             RoundedRectangle(cornerRadius: 0)
                 .foregroundColor(headerBackground)
                 .rotationEffect(Angle(degrees: rotationAngle))
+                .frame(width: UIScreen.main.bounds.width , height: 350)
             
             VStack {
                 Text(title)
@@ -27,7 +28,7 @@ struct SignHeaderView: View {
             .padding(.top, 80)
             
         }
-        .frame(width: UIScreen.main.bounds.width * 3, height: 350)
+        
         .offset(y: -150)
     }
 }

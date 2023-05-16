@@ -18,11 +18,25 @@ struct SignInView: View {
                 SignButton(title: "Sign In", buttonBackground: .black, textColor: .white) { viewModel.signIn() }
                     .cornerRadius(5)
             }
+            .padding()
             Spacer()
+            HStack {
+                Text("Not a member?")
+                    .foregroundColor(.black.opacity(0.7))
+                    .font(.subheadline)
+                Button(action: {
+                    withAnimation {
+                        model.selectedModal = .signUp
+                    }
+                }
+                       , label: {
+                    Text("Register Now")
+                })
+            }
         }
-        
-    }
-    
+        .padding(.bottom, 80)
+
+        }
 }
 
 struct SignInView_Previews: PreviewProvider {

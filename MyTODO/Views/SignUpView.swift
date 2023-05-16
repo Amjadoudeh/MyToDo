@@ -23,7 +23,7 @@ struct SignUpView: View {
                 SignButton(title: "Sign Up", buttonBackground: .black, textColor: .white) { viewModel.signUp() }
                     .cornerRadius(5)
             }
-           
+            .padding()
             Spacer()
         }
     }
