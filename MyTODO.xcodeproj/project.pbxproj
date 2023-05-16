@@ -94,8 +94,8 @@
 		D041852B2A136F9F00158952 /* MyTODO */ = {
 			isa = PBXGroup;
 			children = (
-				D041852C2A136F9F00158952 /* MyTODOApp.swift */,
-				D041852E2A136F9F00158952 /* ContentView.swift */,
+				D04185572A13706700158952 /* Others */,
+				D04185562A13705A00158952 /* Views */,
 				D04185302A136FA000158952 /* Assets.xcassets */,
 				D04185322A136FA000158952 /* Preview Content */,
 			);
@@ -125,6 +125,22 @@
 				D04185492A136FA000158952 /* MyTODOUITestsLaunchTests.swift */,
 			);
 			path = MyTODOUITests;
+			sourceTree = "<group>";
+		};
+		D04185562A13705A00158952 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D041852E2A136F9F00158952 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D04185572A13706700158952 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D041852C2A136F9F00158952 /* MyTODOApp.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
