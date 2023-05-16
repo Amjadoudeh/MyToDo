@@ -19,6 +19,10 @@
 		D041855D2A13710C00158952 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041855C2A13710C00158952 /* UserProfileView.swift */; };
 		D041855F2A13713400158952 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041855E2A13713400158952 /* ToDoListView.swift */; };
 		D04185612A13713F00158952 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185602A13713F00158952 /* NewItemView.swift */; };
+		D04185642A13720500158952 /* SignInViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185632A13720500158952 /* SignInViewViewModel.swift */; };
+		D04185662A13721500158952 /* SignUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185652A13721500158952 /* SignUpViewViewModel.swift */; };
+		D04185682A13722900158952 /* UserProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185672A13722900158952 /* UserProfileViewViewModel.swift */; };
+		D041856A2A13724700158952 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185692A13724700158952 /* NewItemViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		D041855C2A13710C00158952 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		D041855E2A13713400158952 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		D04185602A13713F00158952 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		D04185632A13720500158952 /* SignInViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewViewModel.swift; sourceTree = "<group>"; };
+		D04185652A13721500158952 /* SignUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewViewModel.swift; sourceTree = "<group>"; };
+		D04185672A13722900158952 /* UserProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewViewModel.swift; sourceTree = "<group>"; };
+		D04185692A13724700158952 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +170,10 @@
 		D04185622A13715300158952 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D04185632A13720500158952 /* SignInViewViewModel.swift */,
+				D04185652A13721500158952 /* SignUpViewViewModel.swift */,
+				D04185672A13722900158952 /* UserProfileViewViewModel.swift */,
+				D04185692A13724700158952 /* NewItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -299,7 +311,11 @@
 				D041855F2A13713400158952 /* ToDoListView.swift in Sources */,
 				D041855D2A13710C00158952 /* UserProfileView.swift in Sources */,
 				D04185612A13713F00158952 /* NewItemView.swift in Sources */,
+				D04185642A13720500158952 /* SignInViewViewModel.swift in Sources */,
+				D04185682A13722900158952 /* UserProfileViewViewModel.swift in Sources */,
 				D041855B2A1370EC00158952 /* SignUpView.swift in Sources */,
+				D04185662A13721500158952 /* SignUpViewViewModel.swift in Sources */,
+				D041856A2A13724700158952 /* NewItemViewViewModel.swift in Sources */,
 				D04185592A1370D900158952 /* SignInView.swift in Sources */,
 				D041852F2A136F9F00158952 /* ContentView.swift in Sources */,
 				D041852D2A136F9F00158952 /* MyTODOApp.swift in Sources */,
