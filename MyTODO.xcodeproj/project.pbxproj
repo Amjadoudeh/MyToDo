@@ -31,6 +31,7 @@
 		D04185782A1378C300158952 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */; };
 		D041857A2A1378DA00158952 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */; };
 		D041857C2A137CAC00158952 /* SignUpInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857B2A137CAC00158952 /* SignUpInModel.swift */; };
+		D041857E2A13804E00158952 /* SignHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041857D2A13804E00158952 /* SignHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		D041857B2A137CAC00158952 /* SignUpInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInModel.swift; sourceTree = "<group>"; };
+		D041857D2A13804E00158952 /* SignHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				D041855E2A13713400158952 /* ToDoListView.swift */,
 				D04185602A13713F00158952 /* NewItemView.swift */,
 				D04185752A13787500158952 /* ToDoListItemView.swift */,
+				D041857D2A13804E00158952 /* SignHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				D041857A2A1378DA00158952 /* ToDoListViewViewModel.swift in Sources */,
 				D04185762A13787500158952 /* ToDoListItemView.swift in Sources */,
 				D041855D2A13710C00158952 /* UserProfileView.swift in Sources */,
+				D041857E2A13804E00158952 /* SignHeaderView.swift in Sources */,
 				D04185612A13713F00158952 /* NewItemView.swift in Sources */,
 				D04185642A13720500158952 /* SignInViewViewModel.swift in Sources */,
 				D04185682A13722900158952 /* UserProfileViewViewModel.swift in Sources */,
