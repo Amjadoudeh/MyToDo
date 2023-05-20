@@ -12,6 +12,7 @@ struct SignInView: View {
                 TextField("Email", text: $viewModel.email)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .autocapitalization(.none)
+                    .autocorrectionDisabled()
                 SecureField("Password",text: $viewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             
