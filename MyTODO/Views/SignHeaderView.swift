@@ -8,28 +8,30 @@ struct SignHeaderView: View {
     let textColor: Color
     
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 0)
-                .foregroundColor(headerBackground)
-                .rotationEffect(Angle(degrees: rotationAngle))
-                .frame(width: UIScreen.main.bounds.width , height: 350)
-            
-            VStack {
-                Text(title)
-                    .font(.system(size: 50))
-                    .foregroundColor(textColor)
-                    .bold()
-                Text(subTitle)
-                    .font(.system(size: 30))
-                    .foregroundColor(textColor)
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 0)
+                    .foregroundColor(headerBackground)
+                    .rotationEffect(Angle(degrees: rotationAngle))
+                    .frame(width: UIScreen.main.bounds.width * 3 , height: 350)
+                
+                VStack {
+                    Text(title)
+                        .font(.system(size: 50))
+                        .foregroundColor(textColor)
+                        .bold()
+                    Text(subTitle)
+                        .font(.system(size: 30))
+                        .foregroundColor(textColor)
+                        
                     
+                }
+                .padding(.top, 80)
                 
             }
-            .padding(.top, 80)
             
+            .offset(y: -150)
         }
-        
-        .offset(y: -150)
     }
 }
 

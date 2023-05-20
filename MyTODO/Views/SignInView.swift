@@ -14,10 +14,13 @@ struct SignInView: View {
                     .autocapitalization(.none)
                 SecureField("Password",text: $viewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                
+            
                 SignButton(title: "Sign In", buttonBackground: .black, textColor: .white) { viewModel.signIn() }
                     .cornerRadius(5)
             }
+            .formStyle(.grouped)
+            
+            .frame(maxWidth: UIScreen.main.bounds.width)
             .padding()
             Spacer()
             HStack {

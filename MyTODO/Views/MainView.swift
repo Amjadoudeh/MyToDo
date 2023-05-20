@@ -18,11 +18,9 @@ struct MainView: View {
                                 .transition(AnyTransition.scale.animation(.easeInOut(duration: 1.4)))
                         }
                     }
-                    
                 }
-                .ignoresSafeArea(.all)
-                
-    }
+        .ignoresSafeArea(.all)
+            }
 }
 
 struct ContentView_Previews: PreviewProvider {
