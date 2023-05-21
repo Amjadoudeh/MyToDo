@@ -8,10 +8,12 @@ class SignInViewViewModel: ObservableObject {
         
     }
     
-   
-    
-    func signIn () {
-        
+    func signIn() {
+        guard !email.trimmingCharacters(in: .whitespaces).isEmpty,
+              !password.trimmingCharacters(in: .whitespaces).isEmpty else {
+            return
+        }
+        print("called")
     }
     
     func validate() {

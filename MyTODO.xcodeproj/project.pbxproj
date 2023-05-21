@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01E81692A1A4083000C22CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D01E81682A1A4083000C22CC /* GoogleService-Info.plist */; };
 		D041852D2A136F9F00158952 /* MyTODOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041852C2A136F9F00158952 /* MyTODOApp.swift */; };
 		D041852F2A136F9F00158952 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041852E2A136F9F00158952 /* MainView.swift */; };
 		D04185312A136FA000158952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04185302A136FA000158952 /* Assets.xcassets */; };
@@ -26,7 +27,6 @@
 		D041856E2A1373E100158952 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D041856D2A1373E100158952 /* FirebaseAuth */; };
 		D04185702A1373E100158952 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D041856F2A1373E100158952 /* FirebaseFirestore */; };
 		D04185722A1373E100158952 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D04185712A1373E100158952 /* FirebaseFirestoreSwift */; };
-		D04185742A1375AF00158952 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04185732A1375AF00158952 /* GoogleService-Info.plist */; };
 		D04185762A13787500158952 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185752A13787500158952 /* ToDoListItemView.swift */; };
 		D04185782A1378C300158952 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */; };
 		D041857A2A1378DA00158952 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01E81682A1A4083000C22CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D04185292A136F9F00158952 /* MyTODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D041852C2A136F9F00158952 /* MyTODOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTODOApp.swift; sourceTree = "<group>"; };
 		D041852E2A136F9F00158952 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -72,13 +73,13 @@
 		D04185652A13721500158952 /* SignUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewViewModel.swift; sourceTree = "<group>"; };
 		D04185672A13722900158952 /* UserProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewViewModel.swift; sourceTree = "<group>"; };
 		D04185692A13724700158952 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
-		D04185732A1375AF00158952 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D04185752A13787500158952 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		D04185772A1378C300158952 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		D04185792A1378DA00158952 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		D041857B2A137CAC00158952 /* SignUpInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInModel.swift; sourceTree = "<group>"; };
 		D041857D2A13804E00158952 /* SignHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHeaderView.swift; sourceTree = "<group>"; };
 		D041857F2A13874700158952 /* SignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignButton.swift; sourceTree = "<group>"; };
+		D0B694012A1A175F0036E199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		D041852B2A136F9F00158952 /* MyTODO */ = {
 			isa = PBXGroup;
 			children = (
+				D0B694012A1A175F0036E199 /* Info.plist */,
 				D04185572A13706700158952 /* Others */,
 				D04185562A13705A00158952 /* Views */,
 				D04185622A13715300158952 /* ViewModels */,
@@ -186,7 +188,7 @@
 		D04185572A13706700158952 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				D04185732A1375AF00158952 /* GoogleService-Info.plist */,
+				D01E81682A1A4083000C22CC /* GoogleService-Info.plist */,
 				D041852C2A136F9F00158952 /* MyTODOApp.swift */,
 			);
 			path = Others;
@@ -326,7 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04185342A136FA000158952 /* Preview Assets.xcassets in Resources */,
-				D04185742A1375AF00158952 /* GoogleService-Info.plist in Resources */,
+				D01E81692A1A4083000C22CC /* GoogleService-Info.plist in Resources */,
 				D04185312A136FA000158952 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,14 +529,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTODO/Preview Content\"";
-				DEVELOPMENT_TEAM = 85B85WR878;
+				DEVELOPMENT_TEAM = P569KTXYRS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTODO/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My To Do";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -556,14 +560,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTODO/Preview Content\"";
-				DEVELOPMENT_TEAM = 85B85WR878;
+				DEVELOPMENT_TEAM = P569KTXYRS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTODO/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My To Do";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

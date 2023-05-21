@@ -8,7 +8,7 @@ struct SignButton: View {
     
     var body: some View {
         Button {
-            
+            action()
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 0)

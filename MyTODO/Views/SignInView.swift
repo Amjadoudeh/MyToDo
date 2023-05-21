@@ -16,8 +16,13 @@ struct SignInView: View {
                 SecureField("Password",text: $viewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             
-                SignButton(title: "Sign In", buttonBackground: .black, textColor: .white) { viewModel.signIn() }
-                    .cornerRadius(5)
+                SignButton(title: "Sign In",
+                           buttonBackground: .black
+                           , textColor: .white
+                ) {
+                    viewModel.signIn()
+                }
+                .cornerRadius(5)
             }
             .formStyle(.grouped)
             
