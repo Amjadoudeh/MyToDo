@@ -7,6 +7,7 @@ struct SignInView: View {
     var body: some View {
         VStack {
             SignHeaderView(title: "To Do", subTitle: "orgnize your to dos", rotationAngle: 15, headerBackground: .orange, textColor: .white)
+            
             Form {
                 
                 TextField("Email", text: $viewModel.email)
@@ -23,6 +24,11 @@ struct SignInView: View {
                     viewModel.signIn()
                 }
                 .cornerRadius(5)
+                if let message = viewModel.errorMessage {
+                    Text(message)
+                        .font(.caption)
+                        .foregroundColor(Color.red)
+                }
             }
             .formStyle(.grouped)
             
